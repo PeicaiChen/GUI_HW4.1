@@ -1,0 +1,51 @@
+
+/* GUI Assignment: Creating an Interactive Dynamic Table and save it into JQuery Tabs, Validation Plugin
+
+ Description: Using the jQuery Validation plugin to validate the dynamic multiplication table, check unvalid
+ input, use slider and input box for user to enter input, save the dynamic multiplication table into tabs, 
+ add delete function to enable user delete individual tab or delete multiple tabs at a time. Check any errors.
+
+
+ Peicai Chen, Peicai_Chen@student.uml.edu
+
+
+11/11/2021   */
+
+
+#group1{
+    border: 2px solid rgba(0, 38, 255, 0.89);
+    width: fit-content;
+    border-radius: 8px;
+}
+label,th, td, tr:not(:last-child) {
+        border: 2px solid black;
+};
+
+h2,h3{
+    font-size: 50%;
+}
+#MTable{
+    display: block;
+}
+table{
+  display: block;
+  overflow: scroll;
+}
+.ui-icon-close {
+  cursor:pointer;
+  }
+.ui-slider {
+  background: #ccc;
+  border-radius: 15px;
+  height: 6px;
+  margin: 5px;
+  width: 320px;
+}
+#myTabs{
+  display: block;
+}
+#error_msg{
+  color: red;
+}
+
+
